@@ -20,6 +20,29 @@ list-style: disc;
   list-style: disc inside;
 }
 
+.obrazek-gora {
+  min-height: 100px;
+  background-image: url("Copilot_20251218_101223.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tlo1 {
+  min-height: 100vh;
+ background: linear-gradient(to right, #4f4f4f, #a28c5d);
+  
+}
+.tekst1{
+  font-size:30px;
+  
+}
+
+
+
 p{
   padding-left:10px;
 }
@@ -46,6 +69,7 @@ p{
   border-radius:10px;
   letter-spacing:2px;
   cursor:pointer;
+  font-size:30px;
   
   
 }
@@ -59,6 +83,7 @@ p{
   border-radius:10px;
   letter-spacing:2px;
   cursor:pointer;
+  font-size:30px;
   
   
 }
