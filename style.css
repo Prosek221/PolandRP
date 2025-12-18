@@ -36,7 +36,7 @@ list-style: disc;
 }
 .tlo1 {
   min-height: 100vh;
- background: linear-gradient(to right, #4f4f4f, #a28c5d);
+ background: linear-gradient( #4f4f4f, #a28c5d);
   
 }
 .tekst1{
@@ -52,27 +52,15 @@ list-style: disc;
 }
 
 .tlo-mapa{
-   min-height: 100px;
-  background-image: url("ERLC-tlo.png");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; 
+  min-height: 100vh;
+ background: linear-gradient( #4f4f4f, #a28c5d);
   
 }
 
 .zarzad-tlo{
-     min-height: 450px;
-  background-image: url("ERLC-tlo2.png");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding:20px;
+
+  min-height: 100vh;
+ background: linear-gradient( #4f4f4f, #a28c5d);
 }
 
 
@@ -145,6 +133,7 @@ p{
     text-align: center;
   
 }
+
 
 
 
