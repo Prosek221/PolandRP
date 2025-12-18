@@ -1,0 +1,107 @@
+body{
+    font-family: "Comic Sans MS"
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#lista{
+list-style: disc;
+  color: black; /* kropki dziedziczą kolor tekstu */
+  text-align: center;
+  list-style: disc inside;
+}
+
+p{
+  padding-left:10px;
+}
+
+#item{
+  background-color:white;
+  display:inline;
+  text-decoration: none;
+  margin-right: 10%;
+  padding:10px;
+  border-radius:10px;
+  letter-spacing:2px;
+  cursor:pointer;
+  
+  
+}
+
+#item2{
+  background-color:#FF7459;
+  display:inline;
+  text-decoration: none;
+  margin-right: 10%;
+  padding:10px;
+  border-radius:10px;
+  letter-spacing:2px;
+  cursor:pointer;
+  
+  
+}
+
+#item3{
+  background-color:#6392F7;
+  display:inline;
+  text-decoration: none;
+  margin-right: 10%;
+  padding:10px;
+  border-radius:10px;
+  letter-spacing:2px;
+  cursor:pointer;
+  
+  
+}
+#item:hover, #item2:hover, #item3:hover{
+  background-color:#a28c5d;
+  transition-duration:0.3s;
+  
+}
+#srodek{
+    text-align: center;
+  
+}
+
+
+
+
+
+#przycisk{
+  text-decoration:none;
+  color:black;
+  
+}
+
+#srodek-obraz{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#ul {
+  list-style: none;
+  padding: 15;
+  margin: 0;
+  justify-content: center;
+}
+
+/* tło menu */
+#pasek {
+  background-color: #4f4f4f; /* kolor tła całego menu */
+  display: flex;
+  list-style: none;
+  padding: 15;
+  margin: 0;
+  justify-content: center;
+}
